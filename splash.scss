@@ -35,7 +35,8 @@ a {
 
 // nav
 nav {
-	padding: .5rem 4rem; 
+	line-height: 1;
+	padding: .5rem 2rem;
 }
 
 // logo
@@ -249,8 +250,6 @@ input[type = "submit"] {
 
 @media (min-width: 600px ) {
 	nav {
-		line-height: 1;
-		padding: .5rem 2rem;
 		margin: 0 auto 0rem auto;
 		ul {
 			display: flex;

@@ -32,7 +32,8 @@ a {
   color: #f0d928; }
 
 nav {
-  padding: .5rem 4rem; }
+  line-height: 1;
+  padding: .5rem 2rem; }
 
 .logo {
   border: none;
@@ -199,8 +200,6 @@ input[type="submit"] {
 
 @media (min-width: 600px) {
   nav {
-    line-height: 1;
-    padding: .5rem 2rem;
     margin: 0 auto 0rem auto; }
     nav ul {
       display: flex;
